@@ -1,2 +1,5 @@
-package BlackJack;public enum Suit {
+package BlackJack;
+
+public enum Suit {
+    CLUB,HEART,DIAMOND,SPADE
 }
