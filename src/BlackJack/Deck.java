@@ -1,8 +1,9 @@
 package BlackJack;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
-import java.util.Random;
+//import java.util.Random;
 
 public class Deck {
     private ArrayList<Card> cards;
@@ -13,22 +14,26 @@ public class Deck {
 
     public ArrayList<Card> getCards() {
         return cards;
-
     }
 
-
     public void createDeck() {
-        for (Suit cardSuit : Suit.values()) {
-            for (Value cardValue : Value.values()) {
-                this.cards.add(new Card(cardSuit, cardValue));
-            }
-        }
+//        for (Suit cardSuit : Suit.values()) {
+//            for (Value cardValue : Value.values()) {
+//                this.cards.add(new Card(cardSuit, cardValue));
+//            }
+//        }
+
+        Arrays.stream(Suit.values())
+                .forEach(suit -> Arrays.stream(Value.values())
+                        .forEach(value -> this.cards.add(new Card(suit, value))));
+
     }
 
 
 
     public void shuffle(){
         Collections.shuffle(getCards());
+
 //        ArrayList<Card> temporaryDeck = new ArrayList<Card>();
 //        Random random = new Random();
 //        int randomCardIndex = 0;
