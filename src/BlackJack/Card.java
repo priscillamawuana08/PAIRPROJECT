@@ -1,9 +1,8 @@
 package BlackJack;
 
 public class Card{
-   private Suit suit;
-    private Value value;
-
+   private final Suit suit;
+    private final Value value;
 
     public Card(Suit suit, Value value) {
         this.suit = suit;

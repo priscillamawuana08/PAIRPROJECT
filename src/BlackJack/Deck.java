@@ -6,7 +6,7 @@ import java.util.Collections;
 //import java.util.Random;
 
 public class Deck {
-    private ArrayList<Card> cards;
+    private final ArrayList<Card> cards;
 
     public Deck() {
         this.cards = new ArrayList<Card>();
@@ -22,14 +22,11 @@ public class Deck {
 //                this.cards.add(new Card(cardSuit, cardValue));
 //            }
 //        }
-
         Arrays.stream(Suit.values())
                 .forEach(suit -> Arrays.stream(Value.values())
                         .forEach(value -> this.cards.add(new Card(suit, value))));
 
     }
-
-
 
     public void shuffle(){
         Collections.shuffle(getCards());
@@ -47,13 +44,29 @@ public class Deck {
    }
 
         public String toString(){
-            String cardListOutput = "";
+            StringBuilder cardListOutput = new StringBuilder();
             int i = 0;
-            for (Card aCard : this.cards) {
-                cardListOutput += "\n" + i + "-" + aCard.toString();
+            for (Card aCard : Collections.unmodifiableList(this.cards)) {
+                cardListOutput.append("\n").append(i).append("-").append(aCard.toString());
                 i++;
             }
-            return cardListOutput;
+                return cardListOutput.toString();
+        }
+
+        public void removeCard(int i){
+            this.cards.remove(i);
+        }
+
+        public Card getCard(int i){
+            return this.cards.get(i);
+        }
+
+        public void addCard(Card addCard){
+            this.cards.add(addCard);
+        }
+
+        public void draw(Deck takeFrom){
+            this.cards.add(takeFrom.getCard(0));
         }
     }
 
