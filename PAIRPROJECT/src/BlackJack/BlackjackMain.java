@@ -6,6 +6,7 @@ public class BlackjackMain {
 
         Deck playDeck = new Deck();
         playDeck.createDeck();
+        playDeck.shuffle();
 
         System.out.println(playDeck);
     }
