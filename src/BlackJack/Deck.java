@@ -1,6 +1,7 @@
 package BlackJack;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class Deck {
@@ -10,6 +11,12 @@ public class Deck {
         this.cards = new ArrayList<Card>();
     }
 
+    public ArrayList<Card> getCards() {
+        return cards;
+
+    }
+
+
     public void createDeck() {
         for (Suit cardSuit : Suit.values()) {
             for (Value cardValue : Value.values()) {
@@ -18,18 +25,21 @@ public class Deck {
         }
     }
 
+
+
     public void shuffle(){
-        ArrayList<Card> temporaryDeck = new ArrayList<Card>();
-        Random random = new Random();
-        int randomCardIndex = 0;
-        int originalSize = this.cards.size();
-        for (int i = 0; i < originalSize; i++){
-            randomCardIndex = random.nextInt((this.cards.size() - 1) + 1);
-            temporaryDeck.add(this.cards.get(randomCardIndex));
-            this.cards.remove(randomCardIndex);
-        }
-        this.cards = temporaryDeck;
-    }
+        Collections.shuffle(getCards());
+//        ArrayList<Card> temporaryDeck = new ArrayList<Card>();
+//        Random random = new Random();
+//        int randomCardIndex = 0;
+//        int originalSize = this.cards.size();
+//        for (int i = 0; i < originalSize; i++){
+//            randomCardIndex = random.nextInt((this.cards.size() - 1) + 1);
+//            temporaryDeck.add(this.cards.get(randomCardIndex));
+//            this.cards.remove(randomCardIndex);
+//        }
+//        this.cards = temporaryDeck;
+   }
 
         public String toString(){
             String cardListOutput = "";
