@@ -26,9 +26,12 @@ public class BlackjackMain {
         for(int i = 0; i < users; i++){
             System.out.println("Enter player " +(i + 1) + "'s name");
             names = numberOfPlayers.next();
-            player[i] = new Player();
-            player[i].setName(names);
+//            player[i] = new Player();
+//            player[i].setName(names);
+
         }
+
+
 
     }
 
@@ -38,12 +41,24 @@ public class BlackjackMain {
 
 //        BlackjackMain myGame = new BlackjackMain();
         Deck playDeck = new Deck();
+        Player player = new Player("Mike");
         playDeck.createDeck();
+
+        System.out.println(playDeck.getCards());
+
         playDeck.shuffle();
+
+        System.out.println("=======================================================================================");
+
+        System.out.println(playDeck.getCards());
 //        myGame.startGame();
 
+        player.setCardsInHand(playDeck.dealACard());
 
-        System.out.println(playDeck);
+        System.out.println(player.getCardsInHand());
+
+
+//        System.out.println(playDeck);
 
 
 

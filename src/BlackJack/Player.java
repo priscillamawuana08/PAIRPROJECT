@@ -1,22 +1,32 @@
 package BlackJack;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
     // fields for the class
+    private ArrayList<Card> cardsInHand;
     private String name;
 
 
     //constructor for the class
     public Player( String name) {
         this.name = name;
+        this.cardsInHand = new ArrayList<>();
+    }
 
+    public void setCardsInHand(Card cardsInHand) {
+        this.cardsInHand.add(cardsInHand);
+    }
+
+    public ArrayList<Card> getCardsInHand() {
+        return cardsInHand;
     }
 
     //Create player object
-    public Player(){
-
-    }
+//    public Player(){
+//
+//    }
 
     // Create a goBust method
     public void goBust(){
@@ -46,11 +56,6 @@ public class Player {
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 
 
     // Create a toString method for the class
