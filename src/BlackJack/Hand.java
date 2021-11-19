@@ -1,17 +1,32 @@
 package BlackJack;
 
+import java.util.ArrayList;
+        import java.util.List;
+
 public class Hand {
-    private int twoCards ;
+    private final List<Card> cards;
 
-    public Hand(int twoCards) {
-        this.twoCards = twoCards;
+    public Hand() {
+        cards  = new ArrayList<>();
     }
-// A dealt method to give each player two cards for a start
-    public void dealt(){
-    twoCards = 2;
-}
 
-    public int getTwoCards() {
-        return twoCards;
+
+    public void addCard(Card addCard){
+        this.cards.add(addCard);
+    }
+
+    public int cardTotal(){
+        int total = 0;
+        for (Card c:cards) {
+            total += c.getCardValue().getValue();
+        }
+        return total;
+    }
+
+    @Override
+    public String toString() {
+        return "Hand{" +
+                "cards=" + cards +
+                '}';
     }
 }

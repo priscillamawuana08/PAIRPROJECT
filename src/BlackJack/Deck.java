@@ -65,8 +65,9 @@ public class Deck {
             this.cards.add(addCard);
         }
 
-        public void draw(Deck takeFrom){
-            this.cards.add(takeFrom.getCard(0));
-        }
+//        public void draw(Deck takeFrom){
+//            this.cards.add(takeFrom.getCard(0));
+//                takeFrom.removeCard(0);
+      //  }
     }
 
