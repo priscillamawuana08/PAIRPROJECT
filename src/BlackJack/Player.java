@@ -66,6 +66,10 @@ public class Player {
         return bet;
     }
 
+    public void setBet(int bet) {
+        this.bet = bet;
+    }
+
     // Create a toString method for the class
     @Override
     public String toString() {
