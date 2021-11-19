@@ -5,10 +5,10 @@ import java.util.List;
 public class Player {
     // fields for the class
     private String name;
-    private int bet;
+
 
     //constructor for the class
-    public Player( String name, int bank, int bet) {
+    public Player( String name) {
         this.name = name;
 
     }
@@ -20,19 +20,26 @@ public class Player {
 
     // Create a goBust method
     public void goBust(){
+//        if (value > 21){
+//            System.out.println("you have gone bust");
+//        }
     }
 
     // Create a win method
     public void win(){
+//       if(values >= 21){
+//           System.out.println("You have won");
+//       }
     }
 
-    // Create a loss method
-    public void loss(){
+    // Create a hit method
+    public void hit(){
 
     }
 
-    // Create a push method
-    public void push(){
+    // Create a  method
+    public void stick(){
+
     }
 
     // Create a getter and setter method for the name field
@@ -45,4 +52,13 @@ public class Player {
     }
 
 
+
+    // Create a toString method for the class
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
