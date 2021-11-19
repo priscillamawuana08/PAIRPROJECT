@@ -53,9 +53,9 @@ public class Deck {
                 return cardListOutput.toString();
         }
 
-        public void removeCard(int i){
-            this.cards.remove(i);
-        }
+//        public void removeCard(int i){
+//            this.cards.remove(i);
+//        }
 
         public Card getCard(int i){
             return this.cards.get(i);
