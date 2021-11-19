@@ -35,24 +35,6 @@ public class BlackjackMain {
         }
 
     }
-    //A get method and a for, do while loop for getting the value of bet the player bets.
-    public void getBets(){
-        int betValue;
-
-        for (int i =0; i < users; i++) {
-        if (player[i].getBank() > 0) {
-            do {
-                System.out.print("How much do you want to bet " + player[i].getName()  + (" (1-" + player[i].getBank()) + ")? " );
-                betValue = userInput.nextInt();
-                player[i].setBet(betValue);
-            } while (!( betValue > 0 && betValue <= player[i].getBank()));
-            System.out.println("Invalid bet!! please try again");
-        }
-
-    }
-
-}
-
 
 
 
@@ -67,7 +49,7 @@ public class BlackjackMain {
 
 
 
-//        System.out.println(playDeck);
+        System.out.println(playDeck);
 
 
 

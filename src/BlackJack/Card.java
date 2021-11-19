@@ -13,7 +13,7 @@ public class Card{
         return suit;
     }
 
-    public Value getValue() {
+    public Value getCardValue() {
         return value;
     }
 
