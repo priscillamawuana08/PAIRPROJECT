@@ -1,0 +1,2 @@
+package SingleResponsibilityPrinciple;public class Book {
+}
