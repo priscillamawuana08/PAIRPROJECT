@@ -1,2 +1,6 @@
-package LiskovSubstitution;public enum Engine {
+package LiskovSubstitution;
+
+public enum Engine {
+    ON,PowerOn;
+
 }

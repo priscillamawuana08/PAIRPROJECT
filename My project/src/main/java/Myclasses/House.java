@@ -1,2 +1,4 @@
-package Myclasses;public class House {
+package Myclasses;
+
+public class House {
 }

@@ -1,2 +1,7 @@
-package Interface;public interface Sender {
+package Interface;
+
+import java.io.File;
+
+public interface Sender {
+    void send(String name);
 }
