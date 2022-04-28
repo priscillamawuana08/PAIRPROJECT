@@ -1,0 +1,2 @@
+package HospitalManagementSystem.HospitalManagementSystem.patientsInformation.repositories;public interface PatientRepo {
+}

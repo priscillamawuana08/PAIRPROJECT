@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b092ca79-8490-4c6f-aea9-7759f58bcc74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../All projects/SLabs/.idea/modules/SLabs-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All projects/SLabs/.idea/modules/SLabs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All projects/ScalaLabs/.idea/modules/ScalaLabs-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All projects/ScalaLabs/.idea/modules/ScalaLabs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All projects/demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/AddAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/BeadsCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/Quater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/StingSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/TimeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/TotalPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codeWar/TwiceAsOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Client/CodewarsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Client/response/RankDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Client/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Controller/LeaderboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Controller/LeaderboardFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/LeaderboardServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Model/LanguageLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Model/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/java/Service/CodeswarPollingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeaderBoard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My project/src/main/java/Myclasses/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My project/src/main/java/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Inheritance/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Inheritance/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Inheritance/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Interface/ImageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Interface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Interface/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/LiskovSubstitution/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/LiskovSubstitution/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/LiskovSubstitution/MotorCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/OpenClosedPrinciples/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/OpenClosedPrinciples/SuperCoolGuitarWithFlames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkList/src/main/java/SingleResponsibilityPrinciple/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/PAIRPROJECT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/out/production/PAIRPROJECT/BlackJack/Suit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/src/BlackJack/BlackjackMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/src/BlackJack/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/src/BlackJack/Deck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/src/BlackJack/Suit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PAIRPROJECT/src/BlackJack/Value.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="23YW4IhiL5or77khXK8qUDX9VB6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="scores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeWar.scores.scores" />
+      <module name="CodeWars.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeWar.scores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.scores" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b092ca79-8490-4c6f-aea9-7759f58bcc74" name="Changes" comment="" />
+      <created>1641911310851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641911310851</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
